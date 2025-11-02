@@ -1,0 +1,25 @@
+package com.tka.AssignmentFive;
+
+public class ProductOfCubeEvenNumFrom3To12 
+{
+
+	public static void main(String[] args)
+	{
+	
+		long product=1;
+		int cube=0;
+		
+		for(int num=3;num<=12;num++)
+		{
+			if(num%2==0)
+			{
+				cube=num*num*num;
+				product*=cube;
+		
+			}
+		}
+		
+		System.out.println(product);
+	}
+}
+output:-12230590464000
