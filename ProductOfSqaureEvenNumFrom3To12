@@ -1,0 +1,24 @@
+package com.tka.AssignmentFive;
+
+public class ProductOfSqaureEvenNumFrom3To12
+{
+
+	public static void main(String[] args)
+	{
+	
+		long product=1;
+		int sqaure=0;
+		
+		for(int num=3;num<=12;num++)
+		{
+			if(num%2==0)
+			{
+				sqaure=num*num;
+				product*=sqaure;
+				
+			}
+		}
+		System.out.println(product);
+	}
+}
+output:-530841600
