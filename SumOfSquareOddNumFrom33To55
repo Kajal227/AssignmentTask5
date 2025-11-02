@@ -1,0 +1,49 @@
+package com.tka.AssignmentFive;
+
+public class SumOfSquareOddNumFrom33To55 
+{
+
+	public static void main(String[] args)
+	{
+	
+		int sum=0,sqaure=0;
+		
+		for(int num=33;num<=55;num++)
+		{
+			if(num%2!=0)
+			{
+				sqaure=num*num;
+				sum=sum+sqaure;
+
+			}	
+			System.out.println("num"+num+",sqaure"+sqaure+",sum"+sum);
+
+
+		}
+		
+	}
+}
+//Output
+num33,sqaure1089,sum1089
+num34,sqaure1089,sum1089
+num35,sqaure1225,sum2314
+num36,sqaure1225,sum2314
+num37,sqaure1369,sum3683
+num38,sqaure1369,sum3683
+num39,sqaure1521,sum5204
+num40,sqaure1521,sum5204
+num41,sqaure1681,sum6885
+num42,sqaure1681,sum6885
+num43,sqaure1849,sum8734
+num44,sqaure1849,sum8734
+num45,sqaure2025,sum10759
+num46,sqaure2025,sum10759
+num47,sqaure2209,sum12968
+num48,sqaure2209,sum12968
+num49,sqaure2401,sum15369
+num50,sqaure2401,sum15369
+num51,sqaure2601,sum17970
+num52,sqaure2601,sum17970
+num53,sqaure2809,sum20779
+num54,sqaure2809,sum20779
+num55,sqaure3025,sum23804
