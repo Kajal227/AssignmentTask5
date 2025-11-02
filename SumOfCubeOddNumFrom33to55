@@ -1,0 +1,23 @@
+package com.tka.AssignmentFive;
+
+public class SumOfCubeOddNumFrom33to55 
+{
+
+	public static void main(String[] args) 
+	{
+	
+		int sum=0,cube=0;
+		
+		for(int num=33;num<=55;num++)
+		{
+			if(num%2!=0)
+			{
+				cube=num*num*num;
+				sum=sum+cube;
+			}
+		}
+		
+		System.out.println(sum);
+	}
+}
+output:-1097712
