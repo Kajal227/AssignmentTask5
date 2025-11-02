@@ -1,0 +1,23 @@
+package com.tka.AssignmentFive;
+
+public class SumOSqaureEvenNumFrom33To55
+{
+
+	public static void main(String[] args) 
+	{
+	
+		int sum=0,square=0;
+		
+		for(int num=33;num<=55;num++)
+		{
+			if(num%2==0)
+			{
+				square=num*num;
+				sum=sum+square;
+				
+			}
+		}
+		
+		System.out.println(sum);
+	}
+}
